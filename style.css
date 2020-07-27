@@ -2,6 +2,11 @@ body {
     background-color: #182824;
 }
 
+img {
+    width: 280px;
+    height: auto;
+}
+
 h3 {
     color: #ffffff;
     text-align: center;
