@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-
+        <img src="image1.png" alt="">
         <form action="" name="calculator">
 
             <h3>Simple Calculator</h3>
@@ -54,7 +54,7 @@
             <input type="button" value="0" onclick="calculator.screen.value+='0'">
             <input type="button" value="." onclick="calculator.screen.value+='.'">
             <input class="arithmetic-symbol" type="button" value="="
-                onclick="calculator.screen.value= eval(calculator.screen.value)">
+                onclick="calculator.screen.value= eval(calculator.screen.value).toFixed(3)">
             <input class="arithmetic-symbol" type="button" value="/" onclick="calculator.screen.value+='/'">
 
         </form>
