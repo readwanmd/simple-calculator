@@ -1,0 +1,92 @@
+body {
+    background-color: #182824;
+}
+
+h3 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+.container {
+
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr {
+    margin: 15px;
+}
+
+form {
+    border: 5px solid #003838;
+    border-radius: 10px;
+    width: 250px;
+    background-color: #004040;
+    padding: 0px 15px 15px 15px;
+    box-shadow: 0 0 10px 2px #303030;
+}
+
+input[type='text'] {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 36px;
+    padding: 5px;
+    text-align: right;
+    color: black;
+}
+
+input[type='button'] {
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 24px;
+    width: 58px;
+    height: 55px;
+    margin-bottom: 5px;
+}
+
+input[type='button']:hover {
+    background-color: rgb(29, 29, 29);
+}
+
+.screen-clear {
+    background-color: #d7272ade !important;
+}
+
+.screen-clear:hover {
+    background-color: #e8110f !important;
+}
+
+.backspace {
+    background-color: rgb(0, 153, 204) !important;
+}
+
+.backspace:hover {
+    background-color: rgb(51, 102, 204) !important;
+}
+
+.arithmetic-symbol {
+    background-color: rgb(0, 138, 92) !important;
+}
+
+.arithmetic-symbol:hover {
+    background-color: rgb(0, 190, 127) !important;
+}
+
+
+
+footer {
+    margin-top: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+}

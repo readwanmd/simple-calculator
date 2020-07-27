@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple-calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <form action="" name="calculator">
+
+            <h3>Simple Calculator</h3>
+
+            <input type="text" name="screen" id="" disabled>
+
+            <hr>
+
+            <input class="screen-clear" type="button" value="AC" onclick="calculator.screen.value = ''">
+            <input class="screen-clear" type="button" value="C" onclick="calculator.screen.value = ''">
+            <input class="backspace" type="button" value="&larr;"
+                onclick="calculator.screen.value = calculator.screen.value.slice(0,-1)">
+            <input class="arithmetic-symbol" type="button" value="&radic;"
+                onclick="calculator.screen.value = Math.sqrt(calculator.screen.value).toFixed(3)">
+
+            <br>
+
+            <input type="button" value="7" onclick="calculator.screen.value+='7'">
+            <input type="button" value="8" onclick="calculator.screen.value+='8'">
+            <input type="button" value="9" onclick="calculator.screen.value+='9'">
+            <input class="arithmetic-symbol" type="button" value="+" onclick="calculator.screen.value+='+'">
+
+            <br>
+
+            <input type="button" value="4" onclick="calculator.screen.value+='4'">
+            <input type="button" value="5" onclick="calculator.screen.value+='5'">
+            <input type="button" value="6" onclick="calculator.screen.value+='6'">
+            <input class="arithmetic-symbol" type="button" value="-" onclick="calculator.screen.value+='-'">
+
+            <br>
+
+            <input type="button" value="1" onclick="calculator.screen.value+='1'">
+            <input type="button" value="2" onclick="calculator.screen.value+='2'">
+            <input type="button" value="3" onclick="calculator.screen.value+='3'">
+            <input class="arithmetic-symbol" type="button" value="*" onclick="calculator.screen.value+='*'">
+
+            <br>
+
+            <input type="button" value="0" onclick="calculator.screen.value+='0'">
+            <input type="button" value="." onclick="calculator.screen.value+='.'">
+            <input class="arithmetic-symbol" type="button" value="="
+                onclick="calculator.screen.value= eval(calculator.screen.value)">
+            <input class="arithmetic-symbol" type="button" value="/" onclick="calculator.screen.value+='/'">
+
+        </form>
+        <footer><small>&copy; readwan 2020</small></footer>
+    </div>
+</body>
+
+</html>
